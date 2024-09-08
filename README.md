@@ -24,7 +24,7 @@ this is when the intial angle is small enough to linearise the differential equa
 
 **b.Anharmonic oscillator:**
 
-this is when the initial angle is not small enough to linearise the ode but also not big enough for the pendulum to reach the next type of trajectory ( with the help of the initial angular velocity).    The Phase portrait is a deformed ellipse.
+this is when the initial angle is not small enough to linearise the ode but also not big enough for the pendulum to reach the next type of trajectory ( with the help of the initial angular velocity).
 ![anharmonic trajectory](https://github.com/user-attachments/assets/4968d834-4786-40fa-8f4a-68f18f11ae78)                                                                                       
 
  

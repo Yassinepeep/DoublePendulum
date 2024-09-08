@@ -9,6 +9,7 @@ The first plot is our parameters with respect to time.We can verify here that wh
 for the initial conditions, you can change the vector u0 where the first component is the initial angle the second is the intial angular velocity.
 These initial conditions play an important role in the nature of the trajectory of the pendulum .We can see this change in the Phase portrait.
 We have three different types of trajectory:
+
 **a.Harmonic oscillator:** 
 
 this is when the intial angle is small enough to linearise the differential equation.
@@ -29,9 +30,13 @@ this is when the initial angle is not small enough to linearise the ode but also
  
  
  The Phase portrait is a deformed ellipse.
+
+ 
 ![anharmonic oscillator](https://github.com/user-attachments/assets/651ee474-e95a-4406-971d-1824658096c0)
 
-**c.Free trajectory:**this is when the initial parameters are big enough for the pendulum to be doing full circles nonstop.
+**c.Free trajectory:**
+
+this is when the initial parameters are big enough for the pendulum to be doing full circles nonstop.
 
 
 ![free trajectory](https://github.com/user-attachments/assets/5546586e-f1b1-4899-b00b-a395a22ab6ef)                                             ![free phase portrait](https://github.com/user-attachments/assets/dacd7948-d8dd-477c-ade3-a52da548f048)
@@ -50,6 +55,15 @@ To establish the equation of motion for the double pendulum, I chose to write th
 
 We use odeint just like with the single pendulum except here the initial vector u0 has 4 coordinates (angle and angular velcoity for each pendulum).
 Changing the initial conditions change greatly the trajectory of the pendulums which show the chaotic nature of the system.
+
+
+
+
+![double_pendulum](https://github.com/user-attachments/assets/d6cac13b-45e8-4534-bc42-1816770882e9)
+
+
+
+**P.S**  Don't forget to import the libraries matplotlib, numpy and scipy.integrate
 
 
 

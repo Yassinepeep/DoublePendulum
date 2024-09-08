@@ -63,7 +63,8 @@ Changing the initial conditions change greatly the trajectory of the pendulums w
 
 
 
-![double_pendulum](https://github.com/user-attachments/assets/d6cac13b-45e8-4534-bc42-1816770882e9)
+
+![double_pendulum](https://github.com/user-attachments/assets/9ec111f2-6363-492c-8a47-48f3725a7292)
 
 
 

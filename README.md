@@ -6,7 +6,9 @@ We first start with a signle pendulum where i wrote two differential equations: 
 We are using scipy.integrate.odeint to solve the differential equations in this repository so don't forget to pip install scipy and also matplotlib to see the plots.
 The first plot is our parameters with respect to time.We can verify here that when the angle is at its extremum, the angle velocity is null.
 ![paramaters with respect to time](https://github.com/user-attachments/assets/a4e069bb-ffc7-40e8-b5f0-299b77b3b7c0)
-for the initial conditions, you can change the vector u0 where the first component is the initial angle the second is the intial angular velocity.
+
+
+For the initial conditions, you can change the vector u0 where the first component is the initial angle the second is the intial angular velocity.
 These initial conditions play an important role in the nature of the trajectory of the pendulum .We can see this change in the Phase portrait.
 We have three different types of trajectory:
 
@@ -51,6 +53,8 @@ In the end, we animate the pendulum's oscillation.
 ![pendulum](https://github.com/user-attachments/assets/6644f3b5-a9bb-4809-b88d-28e0de119713)
 
 **2.Double Pendulum :**
+
+
 To establish the equation of motion for the double pendulum, I chose to write the lagrangian of the system and use the Euler_Lagrange equation for the two angles ( theta1 and theta2).
 
 We use odeint just like with the single pendulum except here the initial vector u0 has 4 coordinates (angle and angular velcoity for each pendulum).
